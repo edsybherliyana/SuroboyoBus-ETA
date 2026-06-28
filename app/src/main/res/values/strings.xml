@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Edsy Cantik</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps2">MapsActivity2</string>
+    <string name="title_activity_maps3">MapsActivity3</string>
+    <string name="menuju_halte">Menuju Halte : %1$s</string>
+</resources>

@@ -1,0 +1,89 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- GOOGLE MAP -->
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!-- OVERLAY ETA -->
+    <LinearLayout
+        android:id="@+id/etaOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="80dp"
+        android:background="#AA444444"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Halte terdekat penumpang -->
+        <TextView
+            android:id="@+id/textHalte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menuju Halte : ..."
+            android:textColor="#FFD700"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp"/>
+
+        <!-- Garis pemisah -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#66FFFFFF"
+            android:layout_marginBottom="6dp"/>
+
+        <!-- ETA Bus 1 ke halte penumpang -->
+        <TextView
+            android:id="@+id/textETA_bus1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bus 1 ETA : ... menit"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <!-- ETA Bus 2 ke halte penumpang -->
+        <TextView
+            android:id="@+id/textETA_bus2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bus 2 ETA : ... menit"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp"/>
+
+        <!-- Garis pemisah -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#66FFFFFF"
+            android:layout_marginBottom="6dp"/>
+
+        <!-- Tujuan Bus 1 realtime -->
+        <TextView
+            android:id="@+id/textBus1Tujuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bus 1 menuju : -"
+            android:textColor="#AAFFFF"
+            android:textSize="13sp"/>
+
+        <!-- Tujuan Bus 2 realtime -->
+        <TextView
+            android:id="@+id/textBus2Tujuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bus 2 menuju : -"
+            android:textColor="#AAFFFF"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+
+</FrameLayout>

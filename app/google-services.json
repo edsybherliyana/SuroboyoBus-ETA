@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "141762730054",
+    "project_id": "eb-tracking-1c96a",
+    "storage_bucket": "eb-tracking-1c96a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141762730054:android:27935f6989b5a27bfe1247",
+        "android_client_info": {
+          "package_name": "com.example.betracking"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0vhiaI2QJ0n6BWpJm98MJCT97zdW0HOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
